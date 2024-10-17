@@ -7,7 +7,7 @@ import random
 
 # Function to simulate the rainfall data stream using yield
 def pseudo_stream():
-    for yr in range(10,20):
+    for yr in range(2010,2040):
         for i in range(1,13):
             if i < 3:                               # January or February - winter
                 val = random.uniform(10, 28)
