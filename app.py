@@ -26,8 +26,8 @@ def pseudo_stream():
 
 # getting valid number of points
 try:
-    # endp = int(input("Enter the no of data points you want to simulate (min 5): "))
-    endp = 100
+    endp = int(input("Enter the no of data points you want to simulate (min 5): "))
+    # endp = 200    # to be used while using read-only terminal
 except:
     print("WRONG INPUT ! ! !  Exiting . .  .")
     exit()
