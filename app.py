@@ -106,7 +106,7 @@ while True:
     ax.cla()  
     ax.set_xlim(0, len(x_sub) - 1)
     ax.set_ylim(3, 450)
-    scatter = ax.scatter(range(len(x_sub)), y_sub, color='blue',s=10, label="No Anomaly")  # Set color to blue for normals
+    scatter = ax.scatter(range(len(x_sub)), y_sub, color='blue',s=10, label="Rainfall")  # Set color to blue for normals
     scatter_a = ax.scatter(range(len(x_sub)), a_sub, color='red',s=15,label="Anomaly")
 
     # Optionally set x-axis ticks to show months/years
